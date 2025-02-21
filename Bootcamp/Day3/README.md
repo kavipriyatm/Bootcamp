@@ -1,24 +1,3 @@
-# Task 6: Polymorphism (Animal Class)
-
-## Overview
-This task demonstrates **polymorphism** in Python, where the same method `speak()` is defined in the base class `Animal` and overridden in the subclasses `Dog` and `Cat` to exhibit different behaviors.
-
-## What I Learned
-- **Polymorphism** allows objects of different classes to be treated as objects of a common superclass.
-- **Method overriding** in subclasses provides different implementations of a method defined in the parent class.
-- **NotImplementedError** is used in the base class to enforce that subclasses implement the method.
-
-## Expected Output
-- `animal_speak(dog)` will print **"Woof!"** as the output.
-- `animal_speak(cat)` will print **"Meow!"** as the output.
-
-## Challenges Faced
-- Understanding how **polymorphism** allows the same method (`speak()`) to behave differently for different object types.
-- The need to implement **abstract methods** (using `raise NotImplementedError`) in the base class to ensure subclasses define their own version of the method.
-- Ensuring that each subclass implements the `speak()` method correctly for expected behavior.
-
-## Final Thoughts
-Polymorphism enables flexibility by allowing different classes to share the same method name but implement distinct behaviors. This task helped me understand how polymorphism works, especially the importance of method overriding in subclasses. It was a good exercise in recognizing how a single interface can be used for different types of objects, making code more maintainable and extensible.
 # Task 1: Class Creation (Dog Class)
 
 ## Overview
